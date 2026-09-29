@@ -42,7 +42,7 @@
 ### Сборка
 1. Клонируйте репозиторий с сабмодулями:
 ```bash
-git clone --recurse-submodules
+git clone --recurse-submodules https://github.com/romanvht/ByeByeDPI.git
 ```
 2. Запустите скрипт сборки из корня репозитория:
 ```bash
@@ -50,7 +50,8 @@ git clone --recurse-submodules
 ```
 3. APK будет в `app/build/outputs/apk/release/`
 
-> P.S.: hev_socks5_tunnel не соберется под Windows, вам нужно будет использовать WSL
+> [!NOTE]
+> [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel.git) не соберется под Windows, вам нужно будет использовать [WSL](https://github.com/microsoft/WSL)
 
 ### Хеш подписи
 SHA-256:
